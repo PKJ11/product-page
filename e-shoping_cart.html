@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents</title>
+    <link rel="stylesheet" href="estyle.css">
+    <script src="https://kit.fontawesome.com/3a57dc2acc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="containerX">
+        <div class="container1">
+
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li><a href="e-shoping_cart.html">Cart</a></li>
+                    
+                    <li><a href="e-account.html">Account</a></li>
+
+
+                </ul>
+            </nav>
+
+
+        </div>
+
+        
+    </div>
+
+
+    <div class="small_container  cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/product-8.jpg" alt="">
+                        <div>
+                            <p>Red DIGIWACTH </p>
+                            <small>Price : Rs. 1250</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs. 250.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/product-9.jpg" alt="">
+                        <div>
+                            <p>Leather DIGIWACTH</p>
+                            <small>Price : Rs. 2150</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs. 2150.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/exclusive.png" alt="">
+                        <div>
+                            <p>New DIGIWACTH </p>
+                            <small>Price : Rs. 2250</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs. 1250.00</td>
+            </tr>
+            
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>Rs. 3000.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>Rs. 90</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>Rs. 3090.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+    
+
+
+    <div class="footer">
+        <div class="container3">
+            <div class="box1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <div class="sub">
+                    <img src="images/app-store.png" alt="">
+                    <img src="images/play-store.png" alt="">
+                </div>
+                
+            </div>
+            <div class="box2">
+                
+                
+                <p>Our purpose is To make the plaesure and benifits <br>of sports Acceesible to Money.</p>
+                
+            </div>
+            <div class="box3">
+                <h3>Useful Links</h3>
+                <p>Coupons <br> Blog Posts <br>Return Policy <br>Joint Affiliates</p>
+                
+            </div>
+            <div class="box4">
+                <h3>Follow Us</h3>
+                <p>facebook
+                    <br>twiiter <br>Instagram <br>you-Tube
+                </p>
+                
+            </div>
+            
+            
+        </div>
+        <br><br><br>
+        <hr>
+        <p class="copy">Copywright @copy; Pratik 2022</p>
+    </div>
+
+
+    <!-- js for product gallery  -->
+    <script>
+        var productImg = document.getElementById("productImg");
+        var smallImg = document.getElementsByClassName("smallImg");
+
+
+        smallImg[0].onclick =function(){
+            productImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick =function(){
+            productImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick =function(){
+            productImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick =function(){
+            productImg.src = smallImg[3].src;
+        }
+
+
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
